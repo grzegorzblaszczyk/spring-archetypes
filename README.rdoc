@@ -1,0 +1,20 @@
+= README 
+
+A quick'n'dirty Spring 3 archetype for Maven 2/3 based on 
+http://code.google.com/p/spring-archetypes/ 
+
+This archetype will create a Maven project with the following characteristics:
+* Everything is configured using Spring 3
+* Hibernate 3.5 is used for persistence in Hypersonic in-memory db (HSQLDB)
+* Base class for CRUD-operations
+* Base class for unit tests and simple integration test
+* Sitemesh configured as jsp layout manager
+* Configured embedded jetty server
+
+= Quick HOWTO
+
+1. Checkout from git@github.com:grzegorzblaszczyk/spring-archetypes.git
+1. Run mvn install
+1. Run mvn archetype:generate -DarchetypeCatalog=local 
+   This will prompt you with list of locally installed artifact where you should choose appropriate number of recently installed one.
+

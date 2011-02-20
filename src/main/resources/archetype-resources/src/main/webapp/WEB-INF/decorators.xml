@@ -1,0 +1,16 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<decorators defaultdir="/WEB-INF/jsp/decorators">
+
+    <!--if some pages to be excluded from decoration-->
+    <excludes>
+        <!--<pattern>/dialog/</pattern>-->
+    </excludes>
+
+    <decorator name="master" page="master.jsp">
+          <pattern>/*</pattern>
+    </decorator>
+
+
+</decorators>
