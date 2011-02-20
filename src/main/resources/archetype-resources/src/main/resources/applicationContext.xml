@@ -24,7 +24,7 @@
 
     <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
         <property name="basename" value="classpath:messages"/>
-        <property name="defaultEncoding" value="${symbol_dollar}{project.build.sourceEncoding}"/>
+        <property name="defaultEncoding" value="${symbol_dollar}{source.encoding}"/>
     </bean>
 
 
